@@ -1,0 +1,23 @@
+{
+  "name": "factura-pdf",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "commonjs",
+  
+  "scripts": {
+    "generar": "node test/test-generate.js"
+  },
+  "keywords": [],
+  "author": "Santiago Trujillo Neuta",
+  "license": "MIT",
+  "description": "Generador de PDFs para facturación personalizada",
+  "dependencies": {
+    "currency-formatter": "^1.5.9",
+    "dayjs": "^1.11.13",
+    "moment": "^2.30.1",
+    "pdfkit": "^0.17.0"
+  },
+  "devDependencies": {
+    "open": "^10.1.2"
+  }
+}

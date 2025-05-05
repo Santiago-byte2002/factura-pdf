@@ -1,0 +1,170 @@
+{
+    "items": [
+        {
+            "id": 41,
+            "name": "Jugo Natural de Cholupa",
+            "price": 7500,
+            "addons": [],
+            "quantity": 1,
+            "variants": [
+                {
+                    "id": 65,
+                    "name": "Preparado con ",
+                    "options": []
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Coca Cola",
+            "price": 4000,
+            "addons": [],
+            "quantity": 1,
+            "variants": [
+                {
+                    "id": 70,
+                    "name": "Tamaño",
+                    "options": []
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Deluxe ",
+            "price": 14500,
+            "addons": [],
+            "quantity": 1,
+            "variants": [
+                {
+                    "id": 68,
+                    "name": "Salsas",
+                    "options": []
+                },
+                {
+                    "id": 69,
+                    "name": "base de la hamburguesa",
+                    "options": [
+                        {
+                            "id": 52,
+                            "name": "Pan",
+                            "price_adjustment": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "name": "La Cariñosa ",
+            "price": 16500,
+            "addons": [
+                {
+                    "id": 19,
+                    "name": "Extra  queso",
+                    "price": 2900,
+                    "quantity": 1
+                },
+                {
+                    "id": 20,
+                    "name": "Carne",
+                    "price": 5500,
+                    "quantity": 1
+                },
+                {
+                    "id": 21,
+                    "name": "Huevo",
+                    "price": 1900,
+                    "quantity": 1
+                },
+                {
+                    "id": 22,
+                    "name": "Tocineta",
+                    "price": 1000,
+                    "quantity": 1
+                }
+            ],
+            "quantity": 1,
+            "variants": [
+                {
+                    "id": 71,
+                    "name": "base de la hamburguesa",
+                    "options": [
+                        {
+                            "id": 53,
+                            "name": "platano maduro",
+                            "price_adjustment": 2000
+                        }
+                    ]
+                },
+                {
+                    "id": 72,
+                    "name": "Salsas",
+                    "options": [
+                        {
+                            "id": 54,
+                            "name": "ajo",
+                            "price_adjustment": 0
+                        },
+                        {
+                            "id": 55,
+                            "name": "tártara",
+                            "price_adjustment": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "name": "La Cariñosa ",
+            "price": 16500,
+            "addons": [],
+            "quantity": 1,
+            "variants": [
+                {
+                    "id": 66,
+                    "name": "base de la hamburguesa",
+                    "options": [
+                        {
+                            "id": 49,
+                            "name": "platano maduro",
+                            "price_adjustment": 2000
+                        }
+                    ]
+                },
+                {
+                    "id": 67,
+                    "name": "Salsas",
+                    "options": [
+                        {
+                            "id": 50,
+                            "name": "ajo",
+                            "price_adjustment": 0
+                        },
+                        {
+                            "id": 51,
+                            "name": "tártara",
+                            "price_adjustment": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "order": {
+        "id": "f5c22e18-c91b-413e-87df-2c4cd4bb1da7",
+        "type": "delivery",
+        "number": 256,
+        "status": "processing",
+        "is_paid": false,
+        "created_at": "2025-04-19T19:25:09.664446+00:00",
+        "updated_at": "2025-04-19T19:25:09.664446+00:00",
+        "total_price": 74300,
+        "payment_type": "cash"
+    },
+    "customer": {
+        "name": "Nicolas Cuellar",
+        "phone": "573015609716",
+        "address": "Calle 1 # 2 - 3"
+    }
+}
