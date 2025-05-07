@@ -1,13 +1,12 @@
 {
-  "name": "factura-pdf",
+  "name": "@snett2019/factura-pdf",
   "version": "1.0.0",
   "main": "src/index.js",
   "type": "commonjs",
-  
   "scripts": {
     "generar": "node test/test-generate.js"
   },
-  "keywords": [],
+  "keywords": ["factura", "pdf", "generador", "facturación", "pdfkit"],
   "author": "Santiago Trujillo Neuta",
   "license": "MIT",
   "description": "Generador de PDFs para facturación personalizada",
@@ -19,5 +18,12 @@
   },
   "devDependencies": {
     "open": "^10.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Santiago-byte2002/factura-pdf.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
